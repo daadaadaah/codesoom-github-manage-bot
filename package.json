@@ -1,0 +1,28 @@
+{
+  "name": "codesoom-github-manage-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index.js",
+    "deploy:command": "node deploy-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daadaadaah/codesoom-github-manage-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daadaadaah/codesoom-github-manage-bot/issues"
+  },
+  "homepage": "https://github.com/daadaadaah/codesoom-github-manage-bot#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.0.1",
+    "@octokit/core": "^4.0.4",
+    "axios": "^0.27.2",
+    "discord.js": "^14.1.2"
+  }
+}
