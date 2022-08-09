@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 
-const { token } = require('./config.json');
+const { token } = require('./config.js');
 
 const { getAllPRsFromRepository, mergePR, mergePRs } = require('./githubAPI.js');
 

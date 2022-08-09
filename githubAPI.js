@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const { gihtubToken } = require('./config.json');
+const { gihtubToken } = require('./config.js');
 
 const BASIC_GITHUB_API_URL = 'https://api.github.com/repos';
 

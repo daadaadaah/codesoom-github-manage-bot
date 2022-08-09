@@ -1,6 +1,6 @@
 const { SlashCommandBuilder, Routes, PermissionFlagsBits } = require('discord.js');
 const { REST } = require('@discordjs/rest');
-const { clientId, guildId, token } = require('./config.json');
+const { clientId, guildId, token } = require('./config.js');
 const { springRepositorys, reactRepositorys } = require('./assets.js');
 
 const repositorys = [...springRepositorys, ...reactRepositorys];
