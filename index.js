@@ -15,7 +15,7 @@ client.once('ready', () => {
 client.on('interactionCreate', async interaction => {
 	if (!interaction.isChatInputCommand()) return;
 
-	const { commandNamer } = interaction;
+	const { commandName } = interaction;
 
   const repository = getRepository({ commandName });
   // const repository = "trio";
