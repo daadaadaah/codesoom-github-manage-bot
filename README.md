@@ -16,7 +16,7 @@ deploy-commands.js 로 새로운 명령어를 추가하고 난 후 node deploy-c
 - [x] merePRs 코드 정리
 - [x] 봇 24시간 돌리기 : 헤로쿠 이용
 참고 : https://dashboard.heroku.com/apps/codesoom-github-merge-bot
-
+- [x] push 하면, 자동으로 헤로쿠에서 deploy 하도록 설정
 - [ ] 의견 묻기
 - [ ] 리뷰어 채널에서만 명령어 사용하도록 윤석님께 권한 요청하기
 

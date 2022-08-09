@@ -45,13 +45,13 @@ client.on('interactionCreate', async interaction => {
     });
 
     if(totalPRsSize === totalSuccessResultsSize) {
-      const successMessage = `${repository} 에는 총 ${totalPRsSize}개 PR 이 Open 되어 있었고,  모든 PR이 Merge에 성공했습니다. 🚀`;
+      const successMessage = `${repository} 에 모든 PR(${totalPRsSize}개)이 모두 Merge에 성고하였습니다! 🎉`;
 
       await interaction.reply(successMessage);
     
     } else {
       let failedMessage = `
-      ${repository} 에는 총 ${totalPRsSize}개의 PR 중 ${totalSuccessResultsSize}개의 PR은 Merge에 성공했지만, 아래 ${totalRejectedResultsSize}개의 PR은 실패했습니다. 직접 확인해주세요! 😅
+      ${repository} 에서 총 ${totalPRsSize}개의 PR 중 아래 ${totalRejectedResultsSize}개의 PR이 Merge에 실패했습니다. 한번 확인해주세요! 😅
 < 📝 실패한 PR >`;
 
 rejectedPRURLs.forEach((rejectedPRURL)=> {
