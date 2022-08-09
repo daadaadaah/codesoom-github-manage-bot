@@ -1,15 +1,11 @@
 const axios = require('axios');
 
-const { Octokit } = require("@octokit/core");
-
 const { gihtubToken } = require('./config.json');
 
 const BASIC_GITHUB_API_URL = 'https://api.github.com/repos';
 
 const owner = 'codesoom'; 
 // const owner = 'gringrape-juice';
-
-const octokit = new Octokit({ auth: gihtubToken });
 
 const getAllPRsFromRepository = async (repository) => {
   const URL =  `${BASIC_GITHUB_API_URL}/${owner}/${repository}/pulls`;
