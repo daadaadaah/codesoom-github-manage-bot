@@ -24,7 +24,7 @@ client.on('interactionCreate', async interaction => {
     const openPRNumbers = await getAllPRsFromRepository(repository);
 
     if(openPRNumbers.length === 0) {
-      await interaction.reply(`${repository} 에는 Merge 할 PR이 없습니다!`);
+      await interaction.reply(`${repository} 에는 Merge 할 PR이 없습니다! 다다다`);
       return
     }
 
