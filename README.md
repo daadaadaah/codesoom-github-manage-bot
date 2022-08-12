@@ -10,6 +10,15 @@ touch index.js
 
 ```
 
+```js
+{
+  "clientId": /* discord developer Application ID */, 
+  "guildId": /* 서버 ID */, 
+  "token": /* discord developer bot token */, 
+  "gihtubToken": /*  */, 
+}
+```
+
 deploy-commands.js 로 새로운 명령어를 추가하고 난 후 node deploy-commands.js 로 명령어를 등록해줘야 한다.
 
 # TODO
