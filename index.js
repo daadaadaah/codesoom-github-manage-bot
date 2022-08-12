@@ -17,11 +17,6 @@ client.on('interactionCreate', async interaction => {
 
 	const { commandName, user } = interaction;
 
-  if(user.username !== '다희(daadaadaah)') {
-    await interaction.reply(`현재 명령어는 사용하실 수 없습니다(권한 설정 중)`);
-    return
-  }
-
   const repository = getRepository({ commandName });
   // const repository = "trio";
 

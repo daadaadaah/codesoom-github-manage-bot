@@ -54,7 +54,7 @@ const mergePRs = async ({repository, PRNumbers}) => {
       });
     }
 
-    if (value.status === 'rejected') {
+    if (result.status === 'rejected') {
       const { } = 
       
       results.push({
