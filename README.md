@@ -15,7 +15,7 @@ touch index.js
   "clientId": /* discord developer Application ID */, 
   "guildId": /* 서버 ID */, 
   "token": /* discord developer bot token */, 
-  "gihtubToken": /*  */, 
+  "gihtubToken": /* 2023.03.01 까지 */, 
 }
 ```
 
