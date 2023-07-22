@@ -6,6 +6,16 @@
 ## 기능
 - 슬래쉬(/) 명령어에서 정리하고 싶은 레포를 선택하여 Merge 시킬 수 있음.
 
+### 성공했을 때
+- 몇개의 PR이 있었는지 
+<img width="653" alt="스크린샷 2023-07-22 오후 11 32 00" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/8d17d988-551e-4b24-929a-ca4b93935f39">
+
+### 실패했을 때
+- 실패할 경우, 리뷰어들이 바로 체크할 수 있도록 링크도 남겨주기
+<img width="653" alt="스크린샷 2023-07-22 오후 11 32 25" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/9008c409-688a-47a4-9653-bc7f047be6f7">
+
+## ???
+- `Promise.allSettled`를 사용해서 PR Merge 되도록 함.
 
 
 ## 메모
@@ -34,8 +44,8 @@ deploy-commands.js 로 새로운 명령어를 추가하고 난 후 node deploy-c
 - [x] 봇 24시간 돌리기 : 헤로쿠 이용
 참고 : https://dashboard.heroku.com/apps/codesoom-github-merge-bot
 - [x] push 하면, 자동으로 헤로쿠에서 deploy 하도록 설정
-- [ ] 의견 묻기
-- [ ] 리뷰어 채널에서만 명령어 사용하도록 윤석님께 권한 요청하기
+- [x] 의견 묻기
+- [x] 리뷰어 채널에서만 명령어 사용하도록 윤석님께 권한 요청하기
 
 - [ ] TS 로 바꾸기
 참고 : https://sabe.io/tutorials/how-to-build-discord-bot-typescript#resources
