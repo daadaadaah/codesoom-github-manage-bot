@@ -5,6 +5,7 @@
 
 ## 기능
 - 슬래쉬(/) 명령어에서 정리하고 싶은 레포를 선택하여 Merge 시킬 수 있음.
+<img width="1001" alt="스크린샷 2024-06-15 오후 10 20 42" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/e663c04d-0888-4aa8-a8d4-1ab333b1d0f6">
 
 ### 성공했을 때
 - 몇개의 PR이 있었는지 
