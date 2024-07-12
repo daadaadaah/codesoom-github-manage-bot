@@ -17,12 +17,10 @@
   
 <img width="1001" alt="스크린샷 2024-06-15 오후 10 20 42" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/e663c04d-0888-4aa8-a8d4-1ab333b1d0f6">
 
-### 성공했을 때
-- 몇개의 PR이 있었는지 
+- 만약, Merge에 성공하면, 다음과 같이 총 몇개의 PR이 Merge 되었는지 알려줍니다.
 <img width="653" alt="스크린샷 2023-07-22 오후 11 32 00" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/8d17d988-551e-4b24-929a-ca4b93935f39">
 
-### 실패했을 때
-- 실패할 경우, 리뷰어들이 바로 체크할 수 있도록 링크도 남겨주기
+- 만약, Merge에 실패하면, 다음과 같이 어떤 PR이 실패했는지 알려주고, 바로 확인할 수 있도록 링크도 제공합니다.
 <img width="653" alt="스크린샷 2023-07-22 오후 11 32 25" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/9008c409-688a-47a4-9653-bc7f047be6f7">
 
 ## ???
