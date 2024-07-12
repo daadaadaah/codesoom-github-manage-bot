@@ -12,7 +12,7 @@
 - 코드숨 리뷰어 활동할 때, 매주 올라오는 수강생 과제 PR을 하나하나 Merge하는 번거로움을 해결하기 위해 만들었습니다.
 
 ## ✅ 기능
-- 디스코드의 리뷰어 체널에서 슬래쉬(/) 명령어를 입력하면, 다음과 같이 코드숨 과제 Github Repository 목록이 나옵니다.
+- 디스코드의 리뷰어 체널에서 슬래쉬(/) 명령어를 입력하면, 다음과 같이 코드숨 교육중인 과제 Github Repository 목록이 나옵니다.
 <img width="1001" alt="스크린샷 2024-06-15 오후 10 20 42" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/e663c04d-0888-4aa8-a8d4-1ab333b1d0f6">
 
 - 이 목록에서 정리하고 싶은 레포를 선택하면, 자동으로 해당 Repoitory의 PR들이 Merge 됩니다.
