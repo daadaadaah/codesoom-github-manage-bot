@@ -1,7 +1,14 @@
-# codesoom-github-manage-bot
+# 🤖 codesoom-github-manage-bot
+## 소개
+- 매주 올라오는 수강생 과제 PR을 하나하나 Merge하는 번거로움을 해결하기 위해, 과제 PR을 일괄 Merge시키는 디스코드 봇
+- #JS #Gihtub API #discord.js
+- 기간 : 2022년 8월 8일 - 2022년 8월 12일
 
-## 만든 계기
+
+## ✨ 만든 계기
 - 주차별 수강생 PR을 하나하나 Merge 시키는 게 번거롭다고 생각해서 만듬.
+
+
 
 ## 기능
 - 슬래쉬(/) 명령어에서 정리하고 싶은 레포를 선택하여 Merge 시킬 수 있음.
