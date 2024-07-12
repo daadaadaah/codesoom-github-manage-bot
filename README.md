@@ -25,6 +25,11 @@
 
 
 ## 🚀 개선 포인트
+문제 : 1개의 PR당 1~2초 정도 걸려서 최 ~ 
+해결 : 
+
+
+
 - 1개의 PR당 1~2초 걸려서 최대 10초 소요되는 작업을 `Promise.allSettled`를 사용해서 2초만에 작업 완료
 - Promise.all이 아닌 Promise.allSettled을 한 이유는 UX 때문에
 
