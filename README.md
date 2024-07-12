@@ -11,7 +11,7 @@
 ## ✨ 만든 계기
 - 코드숨 리뷰어 활동할 때, 매주 올라오는 수강생 과제 PR을 하나하나 Merge하는 번거로움을 해결하기 위해 만들었습니다.
 
-## 🚀 기능
+## ✅ 기능
 - 디스코드의 리뷰어 체널에서 슬래쉬(/) 명령어를 입력하면, 다음과 같이 코드숨 과제 Github Repository 목록이 나옵니다.
 <img width="1001" alt="스크린샷 2024-06-15 오후 10 20 42" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/e663c04d-0888-4aa8-a8d4-1ab333b1d0f6">
 
@@ -24,7 +24,10 @@
 <img width="653" alt="스크린샷 2023-07-22 오후 11 32 25" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/9008c409-688a-47a4-9653-bc7f047be6f7">
 
 
-## ???
+## 🚀 개선 포인트
+- 1개의 PR당 1~2초 걸려서 최대 10초
+- 
+
 - `Promise.allSettled`를 사용해서 PR Merge 되도록 함.
 
 
