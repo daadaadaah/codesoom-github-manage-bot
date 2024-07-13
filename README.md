@@ -86,7 +86,7 @@
 - Merge에 **성공**하면, 다음과 같이 **총 몇개의 PR이 Merge 되었는지** 사용자에게 알려줍니다.
   <img width="653" alt="스크린샷 2023-07-22 오후 11 32 00" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/8d17d988-551e-4b24-929a-ca4b93935f39">
 
-- Merge에 **실패**하면, 다음과 같이 **어떤 PR이 실패했는지** 알려주고, **실패한 PR을 바로 확인할 수 있도록 링크도 제공해줍니다.**
+- Merge에 **실패**하면, 다음과 같이 **어떤 PR이 실패했는지** 알려주고, **실패한 PR을 바로 확인할 수 있도록 링크**도 제공해줍니다.
   <img width="653" alt="스크린샷 2023-07-22 오후 11 32 25" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/9008c409-688a-47a4-9653-bc7f047be6f7">
 
 #### ✨ [결과]
