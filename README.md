@@ -10,20 +10,13 @@
 
 ## ✅ 기능
 - 디스코드의 리뷰어 체널에서 슬래쉬(/) 명령어를 입력하면, 다음과 같이 코드숨 교육중인 과제 Github Repository 목록이 나옵니다.
+- 이 목록에서 정리하고 싶은 레포를 선택하면, 자동으로 해당 Repoitory의 PR들이 Merge 됩니다.
 <img width="1001" alt="스크린샷 2024-06-15 오후 10 20 42" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/e663c04d-0888-4aa8-a8d4-1ab333b1d0f6">
 
-- 이 목록에서 정리하고 싶은 레포를 선택하면, 자동으로 해당 Repoitory의 PR들이 Merge 됩니다.
-
-- 이때, 만약, Merge에 성공하면, 다음과 같이 **총 몇개의 PR이 Merge 되었는지** 알려줍니다.
-<img width="653" alt="스크린샷 2023-07-22 오후 11 32 00" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/8d17d988-551e-4b24-929a-ca4b93935f39">
-
-- 만약, Merge에 실패하면, 다음과 같이 어떤 PR이 실패했는지 알려주고, **실패한 PR을 바로 확인할 수 있도록 링크도 제공합니다.**
-<img width="653" alt="스크린샷 2023-07-22 오후 11 32 25" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/9008c409-688a-47a4-9653-bc7f047be6f7">
-
-
 ## 🚀 개선 포인트
-### 성능을 향상시킴으로써 UX 개선
-문제 : 슬래쉬(/) 명령어로 ~ 
+### 1. 성능을 향상시킴으로써 UX 개선
+문제 : 슬래쉬(/) 명령어
+
 
 1. 1개당 1~2초 * 최대 20 : 명령어 입력후 최대 20초 걸리면 UX 측면에서도 별로
 2. 이를 해결 하기 위해 병렬 처리가 필요하다고 생각했고, 이를 위해 all vs allsellted
@@ -32,16 +25,14 @@
 
 
 
-### 사용자에게 유용한 정보를 제공함으로써 UX 개선
-- PR Merge 후 단순한 성공/실패 메시지보다 좀더 사용자에게 유용한 정보를 주기 위해  등을 디스코드 메시지로 보내주면, UX 측면에서 ~
+### 2. 사용자에게 유용한 정보를 제공함으로써 UX 개선
+- 기존에는 PR 일괄 Merge 시 단순히 "성공했다" 또는 "실패했다"라는 메시지만 전달해서, UX 측면에서 아쉬운 면이 있었습니다. 예를 들어, Merge 성공 시, 정확히 몇 개의 PR이 Merge되었는지, Merge 실패 시, 어떤 PR이 실패했는지 알 수 없었습니다. 또한, 실패시에는 실패한 PR을 찾기 위해 추가적인 탐색을 해야하는 불편함이 있었습니다.
+- 이를 개선하고자, Merge 성공/실패시 각각 다음과 같은 정보를 사용자에게 제공하였습니다.
+- 만약, Merge에 **성공**하면, 다음과 같이 **총 몇개의 PR이 Merge 되었는지** 알려줍니다.
+  <img width="653" alt="스크린샷 2023-07-22 오후 11 32 00" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/8d17d988-551e-4b24-929a-ca4b93935f39">
 
-
-
-
-
-
-
-
+- 만약, Merge에 **실패**하면, 다음과 같이 어떤 PR이 실패했는지 알려주고, **실패한 PR을 바로 확인할 수 있도록 링크도 제공합니다.**
+  <img width="653" alt="스크린샷 2023-07-22 오후 11 32 25" src="https://github.com/daadaadaah/codesoom-github-manage-bot/assets/60481383/9008c409-688a-47a4-9653-bc7f047be6f7">
 
 
 
